@@ -51,7 +51,7 @@
             bindings = <
                 &trans &trans &trans &kp LBRC &kp RBRC &trans                                  &trans &trans &trans &trans &trans &trans
                 &trans &trans &trans &kp LBKT &kp RBKT &trans                                  &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &kp LT   &kp GT   &kp LPAR &trans &trans    &trans &trans &kp RPAR &trans &trans &trans &trans &trans
+                &trans &kp GRAVE &kp LS(GRAVE) &kp LT   &kp GT   &kp LPAR &trans &trans    &trans &trans &kp RPAR &trans &trans &trans &trans &trans
                                      &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans
             >;
         };
